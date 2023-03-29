@@ -105,7 +105,6 @@ section { position: relative; }
 
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
-    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -167,6 +166,19 @@ body {
     color: var(--dark-text);
 }
 
+nav a {
+  font-family: 'Urbanist', sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 4rem;
+  text-transform: lowercase;
+  letter-spacing: 0.2em;
+  line-height: 1em;
+  color: #302C2B;
+}
+
 h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-bottom: 1.2rem;
@@ -201,7 +213,18 @@ p:last-child {
 .text-featured  { color: var(--featured-text);}
 .text-light     { color: var(--light-text);}
 .subtle         { opacity: 0.8;     }
-.subtitle       { font-size: 0.8rem; }
+.subtitle       {
+  font-size: 1.1rem;
+  margin-top: 0.5em;
+  color: var(--dark-text);
+}
+
+/* Layers */
+.sit-center {
+  z-index: 2;
+  position: relative;
+  margin-top: -50%;
+}
 
 
 /* ------------ Buttons & Links ------------ */

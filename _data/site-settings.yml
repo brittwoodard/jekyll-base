@@ -11,7 +11,7 @@ social:
   facebook_url:
   twitter_username: 
 design: 
-  dark-text_color: 'rgb(60,60,65)'
+  dark-text_color: '#302C2B'
   medium-text_color: 'rgb(90,90,95)'
   light-text_color: '#f7f5f3'
   featured-text_color: 'red'
