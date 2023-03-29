@@ -110,32 +110,24 @@ section { position: relative; }
     background-repeat: no-repeat;
 }
 
-.bg-overlay::after {
-  z-index: 1;
+/* Overlay CSS */
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::before {
   content: ""; 
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.3);
 }
-
 
 .bg-overlay > * {
-  z-index: 2;
   position: relative;
 }
-/* Add a second class to change the color or style  */
-
-.bg-overlay-gradient::after { 
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
-} 
-
-.bg-overlay-featured::after { 
-  background-color: var(--featured);
-  opacity: 0.5;
-} 
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
