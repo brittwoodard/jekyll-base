@@ -163,13 +163,14 @@ a.bg-image { display: block;}
 .uppercase    { text-transform: uppercase; }
 
 body {
-  font-family: 'Mulish', serif;  /* Add your font here */ 
-  color: var(--dark-text);
+    font-family: 'Hind', sans-serif;
+    color: var(--dark-text);
 }
 
 h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-bottom: 1.2rem;
+  font-family: 'Urbanist', sans-serif;
 }
 
 h2 { font-size: 2rem; }
@@ -181,7 +182,7 @@ h6 { font-size: 1.2rem; }
 p, li {
   line-height: 1.4; 
   margin-bottom: 1rem;
-  font-family: 'Martel', serif; 
+  font-family: 'Hind', sans-serif;
   font-weight: 200;
   font-size: 1rem;
 }
@@ -374,9 +375,9 @@ nav a:hover {
 /* Individual Blog Post Pages  */
 
 .blog-content h1 {
-  font-family: 'Martel', serif; 
-  font-weight: 200;
-  font-size: 3rem;
+    font-family: 'Hind', sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
 }
 
 .blog-content p {
@@ -396,8 +397,8 @@ nav a:hover {
   color: var(--medium-text);
 }
 .sidebar-item p {
-  font-family: 'Mulish', serif; 
-  font-weight: 300;
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
 }
 
 .recent-posts-nav a{
@@ -499,6 +500,5 @@ hr.short.center {
 
     .subtle-heading-xs {
       font-weight: 300;
-      font-family: 'Martel', serif; 
-    }
+      font-family: 'Hind', sans-serif;
 }
