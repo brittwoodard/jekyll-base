@@ -31,11 +31,14 @@ seo:
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat necessitatibus? Praesentium fugit ex neque magni, possimus, iste itaque voluptatem id doloremque voluptas consequatur dolor cumque! Dolores possimus laboriosam adipisci.</p>
     </div>
 
+    <div class="grid-center featured-events-gallery">
+
+
         {% assign featured_posts = site.posts | where: 'featured', true %}
 
         {% for post in featured_posts limit:5 %}
 
-            <div class="col-4 post-item padded-05">
+        <div class="col-4 post-item padded-05">
                 <div class="bg-image portrait" style="background-image:url( '{{ post.featured_image }}' );"></div>
                 <div class="padded-t-1">
                     
@@ -46,9 +49,9 @@ seo:
                     <h2 class="margin-t-1"> {{ post.title }} </h2>
                     <p> {{ post.description }} </p>
                     <a href="{{ post.url }}" class="subtle-button"> Read More </a>
-
                 </div>
             </div>
+        </div>
 
         {% endfor %}
 

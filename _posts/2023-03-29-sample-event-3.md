@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Event
+title: Another Sample Event
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum,
   ab, eum dolore perspiciatis tenetur alias aspernatur

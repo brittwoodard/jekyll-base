@@ -148,6 +148,11 @@ section { position: relative; }
   position: relative;
 }
 
+.featured-events-gallery {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
 a.bg-image { display: block;}
