@@ -109,6 +109,8 @@ section { position: relative; }
   background: radial-gradient(circle, rgba(245,179,104,1) 0%, rgba(218,200,214,1) 35%, rgba(244,213,189,1) 100%);
 }
 
+.bg-border {border: 2px solid var(--accent);}
+
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
     background-size: cover;
@@ -153,6 +155,12 @@ section { position: relative; }
   flex-wrap: nowrap;
 }
 
+.featured-gallery-description {
+  background-color: var(--light);
+  border: 2px solid var(--accent);
+  padding: 5%;
+}
+
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
 a.bg-image { display: block;}
@@ -191,6 +199,7 @@ header {
 
 nav a {
   font-family: 'Urbanist', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 h1 {
@@ -206,10 +215,12 @@ h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-bottom: 1.2rem;
   font-family: 'Urbanist', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.1em;
 }
 
 h2 { font-size: 2rem; }
-h3 { font-size: 1.8rem; }
+h3 { font-size: 1rem; }
 h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
@@ -283,6 +294,7 @@ p a:hover {
 .subtle-button {
   text-decoration: none;
   border-bottom: 1px solid;
+  font-weight: lighter;
 }
 
 /* suggested additional styles 
