@@ -104,6 +104,11 @@ section { position: relative; }
 .bg-light    { background-color: var(--light); }
 .bg-v-light  { background-color: var(--v-light); }
 
+.bg-gradient {
+  background: rgb(245,179,104);
+  background: radial-gradient(circle, rgba(245,179,104,1) 0%, rgba(218,200,214,1) 35%, rgba(244,213,189,1) 100%);
+}
+
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
     background-size: cover;
@@ -246,7 +251,7 @@ a {
 }
 
 a:hover {
-  color: var(--featured-text); 
+  border-bottom: 1px solid var(--featured-text); 
 }
 
 p a {
@@ -255,7 +260,7 @@ p a {
 }
 
 p a:hover { 
-  color: var(--featured-text); 
+  border-bottom: 1px solid var(--featured-text); 
 }
 
 .button { 
@@ -291,7 +296,7 @@ nav a {
     text-transform: capitalize;
 }
 nav a:hover {
-  color: var(--featured-text);
+  border-bottom: 1px solid var(--featured-text); 
 }
 
 .logo {
