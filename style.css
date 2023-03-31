@@ -195,10 +195,10 @@ body {
 }
 
 header {
-  position: fixed; /* set position to fixed */
-  top: 0; /* set the top to 0 */
-  width: 100%; /* set the width to 100% to fill the entire width of the screen */
-  z-index: 1; /* add a z-index to make sure the nav appears on top of the header image */
+  position: absolute; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1; 
 }
 
 nav a {
@@ -260,8 +260,10 @@ p:last-child {
 /* Layers */
 .sit-center {
   z-index: 3;
-  position: relative;
-  margin-top: -50%;
+  position: absolute;
+  bottom: vh;
+  left: 0;
+  right: 0;
 }
 
 

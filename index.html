@@ -14,7 +14,7 @@ seo:
 <section class="grid-right">
     <div class="col-6 bg-image bg-sage tall-100 bg-overlay editable"></div>
 
-    <div class="col-12-middle center sit-center editable">
+    <div class="col-12-middle center sit-center padded editable">
         <img src="/images/mcc-logo-transparent.png" class="logo-img">
         <h1>My Conscious Community</h1>
         <p class="subtitle">Connect with Like-Minded Souls: Your Guide to Upcoming Workshops, Retreats, and Gatherings</p>
@@ -24,11 +24,9 @@ seo:
 
 <!------------------------ Featured blog loop ------------------------>
 <section class="padded-t padded-b bg-gradient tall-90">
-    <div class="center padded-l padded-r margin-b-2">
+    <div class="center padded-l padded-r margin-b-1">
         <h2>Featured Events</h2>
-        <p>We know you're always on the lookout for the next big event to deepen your spiritual journey. That's why we've handpicked the most divine experiences just for you. Our editors have scoured the land to find the most profound and transformative events to guide you on your path.</p>
-
-        <p>From yoga retreats to mindfulness workshops, our Featured Events are designed to uplift your mind, body, and spirit. You'll connect with like-minded souls and embark on a journey of self-discovery that will leave you feeling recharged and refreshed.</p>
+        <p>We know you're always on the lookout for the next big event to deepen your spiritual journey. That's why we've handpicked the most divine experiences just for you. Our editors have scoured the land to find the most profound and transformative events to guide you on your path. From yoga retreats to mindfulness workshops, our Featured Events are designed to uplift your mind, body, and spirit. You'll connect with like-minded souls and embark on a journey of self-discovery that will leave you feeling recharged and refreshed.</p>
     </div>
 
     <div class="capped-width grid-center featured-events-gallery">
@@ -37,7 +35,7 @@ seo:
 
         {% for post in featured_posts limit:5 %}
 
-        <div class="col-4 post-item padded-05">
+        <div class="col-4 post-item padded-2">
             <div class="bg-image portrait bg-border" style="background-image:url( '{{ post.featured_image }}' );"></div>
             
             <div class="padded-t-1 featured-gallery-description center"> 
