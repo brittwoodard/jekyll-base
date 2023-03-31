@@ -8,6 +8,7 @@ featured: true
 categories:
   - Yoga
   - Retreat
+city: Bordeaux
 featured_image: https://source.unsplash.com/b37mDyPzdJM
 seo:
   title: Awaken the Soul, A Yoga Retreat in the Heart of Morocco

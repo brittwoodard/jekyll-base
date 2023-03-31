@@ -1,16 +1,15 @@
 <!-- Since the post loop item uses a column class, make sure the parent container has a grid -->
 
 <div class="col-3_xs-12 post-item padded-1">
-    <a href="{{ post.url }}" class="bg-image landscape" style="background-image:url( '{{ post.featured_image }}' );"></a>
+    <a href="{{ post.url }}" class="bg-image landscape bg-border" style="background-image:url( '{{ post.featured_image }}' );"></a>
     <div class="padded-t-1 padded-b-1">
-        
-        {% for item in post.categories %}
-            <span class="tag"> {{item}} </span>
+        {% for item in post.city %}
+            <p>Month, 11, 2023 | {{item}} </p>
         {% endfor %}
 
         <h3 class="margin-t-1">{{ post.title }}</h3>
-        <p>{{ post.description }}</p>
-        <a href="{{ post.url }}" class="subtle-button">Learn More</a>
+        <!-- <p>{{ post.description }}</p> -->
+        <a href="{{ post.url }}" class="button">Learn More</a>
 
     </div>
 </div>

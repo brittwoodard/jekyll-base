@@ -8,6 +8,7 @@ featured: true
 categories:
   - Yoga
   - Workshop
+city: Bordeaux
 featured_image: https://source.unsplash.com/xB4ExGcUai0
 seo:
   title: Mastering the Ashtanga Primary Series

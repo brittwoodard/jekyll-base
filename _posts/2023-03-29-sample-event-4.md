@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Discover the Inner Light Within: Exploring the Foundations of Yoga Asana
+title: Discover the Inner Light Within, Exploring the Foundations of Yoga Asana
 description: >-
   Are you new to yoga, or looking to deepen your practice? Join us for our upcoming yoga foundations workshop, where we'll explore the fundamental principles of this ancient practice.
 author: Brittany Woodard
@@ -8,9 +8,10 @@ featured: true
 categories:
   - Yoga
   - Workshop
+city: Paris
 featured_image: https://source.unsplash.com/N21356amsyw
 seo:
-  title: Discover the Inner Light Within: Exploring the Foundations of Yoga Asana
+  title: Discover the Inner Light Within, Exploring the Foundations of Yoga Asana
   description: Are you new to yoga, or looking to deepen your practice? Join us for our upcoming yoga foundations workshop, where we'll explore the fundamental principles of this ancient practice.
   social_image: https://source.unsplash.com/N21356amsyw
   twitter_card: https://source.unsplash.com/N21356amsyw

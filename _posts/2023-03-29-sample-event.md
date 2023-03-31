@@ -8,6 +8,7 @@ featured: true
 categories:
   - Yoga
   - Teacher Training
+city: Paris
 featured_image: https://source.unsplash.com/XKhHkbAFyPs
 seo:
   title: 200-Hour Yoga Teacher Training

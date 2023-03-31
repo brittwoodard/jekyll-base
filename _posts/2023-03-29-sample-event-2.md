@@ -7,6 +7,7 @@ author: Brittany Woodard
 featured: true
 categories:
   - Sound Healing
+city: Bordeaux
 featured_image: https://source.unsplash.com/0XwcHcG-lio
 seo:
   title: Gong Bath Experience Under the Stars
