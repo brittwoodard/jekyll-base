@@ -54,3 +54,18 @@ seo:
 </section>
 
 <!-- Upcoming Events -->
+<section class="padded grid">
+    <div class="col-12 padded-05 center margin-b-1">
+        <h2>Upcoming Events</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat necessitatibus? Praesentium fugit ex neque magni, possimus, iste itaque voluptatem id doloremque voluptas consequatur dolor cumque! Dolores possimus laboriosam adipisci.</p>
+    </div>
+
+        {% for post in site.posts limit:12 %}
+
+            {% include post-loop-item-landscape.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
