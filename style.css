@@ -159,6 +159,10 @@ section { position: relative; }
   background-color: var(--light);
   border: 2px solid var(--accent);
   padding: 5%;
+  width: 80%;
+  position: relative;
+  margin-top: -4rem;
+  margin-left: 9%;
 }
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
@@ -219,7 +223,7 @@ h2, h3, h4, h5, h6 {
   letter-spacing: 0.1em;
 }
 
-h2 { font-size: 2rem; }
+h2 { font-size: 2.5rem; }
 h3 { font-size: 1rem; }
 h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
