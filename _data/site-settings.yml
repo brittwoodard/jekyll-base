@@ -13,10 +13,10 @@ social:
 design: 
   dark-text_color: '#302C2B'
   medium-text_color: '#C4B4C0'
-  light-text_color: '#f7f5f3'
+  light-text_color: 'white'
   featured-text_color: '#F5B368'
   dark_color: 'rgb(60,60,65)'
-  medium_color: '#ede8e4'
+  medium_color: '#F4D5BD'
   light_color: '#F5F2F5'
   v-light_color: '#FBF9FA'
   featured_color: '#6495ed'

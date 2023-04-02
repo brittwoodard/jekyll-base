@@ -119,6 +119,8 @@ section { position: relative; }
     background-repeat: no-repeat;
 }
 
+.shape-window {border-radius: 100% 100% 0 0}
+
 .bg-sage {background-image: url('/images/my-conscious-community-1.jpg');}
 
 /* Images */
@@ -251,14 +253,19 @@ p:last-child {
 .emphasis       { font-size: 1.2rem; }
 .text-featured  { color: var(--featured-text);}
 .text-medium  { color: var(--medium-text);}
-.text-light     { color: var(--light-text);}
+.text-light     {
+  color: var(--light-text);
+  font-weight: 300;
+}
+
 .subtle         { opacity: 0.8;     }
 .subtitle       {
   font-size: 1.1rem;
   margin-top: 0.75em;
 }
-.cta-heading { font-size: 2rem; }
-.cta-subtitle {
+
+.heading-alt { font-size: 2rem; }
+.subtitle-alt {
   font-size: 1.5rem;
   letter-spacing: 0.2em;
 }
@@ -274,7 +281,7 @@ p:last-child {
 
 .sit-eye {
   position: absolute;
-  width: 23vw;
+  width: 15vw;
   bottom: 1vh;
   left: 43vw;
 }
@@ -571,7 +578,7 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
-  .shape-window {border-radius: 100% 100% 0 0}
+}
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
