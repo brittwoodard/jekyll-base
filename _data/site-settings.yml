@@ -18,6 +18,6 @@ design:
   dark_color: 'rgb(60,60,65)'
   medium_color: '#ede8e4'
   light_color: '#F5F2F5'
-  v-light_color: '#f9f9f9'
+  v-light_color: '#FBF9FA'
   featured_color: '#6495ed'
   accent_color: '#DAC8D6'

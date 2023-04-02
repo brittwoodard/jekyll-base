@@ -68,6 +68,7 @@ section { position: relative; }
 
 /* Margin Utility Classes */ 
 
+.margin {margin: 5%;}
 .margin-t { margin-top: 5%; }
 .margin-b { margin-bottom: 5%; }
 .margin-l { margin-left: 5%; }
@@ -255,7 +256,11 @@ p:last-child {
 .subtitle       {
   font-size: 1.1rem;
   margin-top: 0.75em;
-  color: var(--dark-text);
+}
+.cta-heading { font-size: 2rem; }
+.cta-subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 0.2em;
 }
 
 /* Layers */
@@ -265,6 +270,13 @@ p:last-child {
   bottom: vh;
   left: 0;
   right: 0;
+}
+
+.sit-eye {
+  position: absolute;
+  width: 23vw;
+  bottom: 1vh;
+  left: 43vw;
 }
 
 
@@ -559,7 +571,7 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
-  .shape-window {border-radius: 100% 0;}
+  .shape-window {border-radius: 100% 100% 0 0}
 
 }
 
