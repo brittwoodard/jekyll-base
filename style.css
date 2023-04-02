@@ -224,7 +224,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h2 { font-size: 2.5rem; }
-h3 { font-size: 1.1rem; }
+h3 { font-size: 1rem; }
 h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
@@ -293,9 +293,7 @@ p a:hover {
 }
 
 .button:hover {
-    border: 1px solid var(--featured-text);
-    background-color: white;
-    color: var(--featured-text);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .subtle-button {
@@ -560,6 +558,8 @@ hr.short.center {
   .sm-portrait-tall { padding-bottom: 175%; }
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
+
+  .shape-window {border-radius: 100% 0;}
 
 }
 
