@@ -255,6 +255,12 @@ p:last-child {
 	margin-bottom: 0;
 }
 
+footer img {width: 5vw;}
+footer h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 /* Unique Typography Styles  */
 .emphasis       { font-size: 1.2rem; }
 .text-featured  { color: var(--featured-text);}
