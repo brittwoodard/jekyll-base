@@ -102,6 +102,7 @@ section { position: relative; }
 /* ------------ Backgrounds & Background Images  ----------------------- */
 
 .bg-dark     { background-color: var(--dark);}
+.bg-accent { background-color: var(--accent);}
 .bg-featured { background-color: var(--featured);}
 .bg-medium   { background-color: var(--medium); }
 .bg-light    { background-color: var(--light); }
@@ -124,6 +125,9 @@ section { position: relative; }
 .shape-window {border-radius: 100% 100% 0 0}
 
 .bg-sage {background-image: url('/images/my-conscious-community-1.jpg');}
+.bg-class {background-image: url('/images/my-conscious-community-2.jpg');}
+.bg-bowl {background-image: url('/images/my-conscious-community-3.jpg');}
+.bg-woman {background-image: url('/images/my-conscious-community-4.jpg');}
 
 /* Images */
 .logo-nav {
@@ -307,8 +311,9 @@ p a:hover {
     display: inline-block;
     text-decoration: none;
     line-height: 1;
+    letter-spacing: 0.05em;
     padding: 0.5rem 1.5rem;
-    border: 1px solid;
+    border: 1px solid var(--featured-text);
     background-color: var(--featured-text);
     color: white;
 }
@@ -434,7 +439,34 @@ nav a:hover {
 
 
 /* ------------ Contact Forms  ----------------------- */
+form input,
+form textarea {
+    width: 20%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 2px solid var(--featured-text);
+    outline: none;
+    font-family: inherit;
+    color: var(--medium-text);
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+}
 
+form input:focus,
+form textarea:focus {
+    border-color: var(--medium-text);
+}
+
+textarea {
+    min-height: 6rem;
+} 
+
+form .button {
+  font-family: 'Hind', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  padding: 0.8rem 1.5rem;
+}
 
 
 /* ------------ Blogging elements  ----------------------- */
