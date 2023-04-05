@@ -197,6 +197,7 @@ a.bg-image { display: block;}
 .right   { text-align: right; }
 .center  { text-align: center; }
 .uppercase    { text-transform: uppercase; }
+.lowercase {text-transform: lowercase;}
 
 body {
     font-family: 'Hind', sans-serif;
