@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 200-Hour Yoga Teacher Training
+date: 2023-04-20
 description: >-
   Deepen your practice and transform your life with our comprehensive yoga teacher training program.
 author: Brittany Woodard
@@ -9,8 +10,6 @@ categories:
   - Yoga
   - Teacher Training
 city: Paris
-events: 
-  future: true
 featured_image: https://source.unsplash.com/XKhHkbAFyPs
 seo:
   title: 200-Hour Yoga Teacher Training

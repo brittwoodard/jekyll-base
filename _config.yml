@@ -1,0 +1,4 @@
+collections:
+  <posts>:
+    output: true
+    allow_future: true
