@@ -56,17 +56,17 @@ seo:
 
 <!-- Upcoming Events -->
 <section class="padded grid" id="upcoming-events">
-    <div class="col-12 padded-05 center margin-b-1 editable">
+    <div class="col-12 padded-05 center margin-b-1 editable" id="blog-container">
         <h2 class="text-medium">Upcoming Events</h2>
         <p>Calling all conscious seekers! Our community is buzzing with events that will awaken your spirit and nourish your soul. Whether you're looking for yoga classes, mindfulness workshops, or simply a chance to connect with like-minded souls, we've got you covered. Get ready to raise your vibe, expand your consciousness, and make some new friends along the way. Join us for the journey!</p>
     </div>
-
-        {% for post in site.posts limit:12 %}
+    
+        {% for post in site.posts %}
             {% include post-loop-item-square.html %}
         {% endfor %}
     </div>
     <div class="col-12 center">
-        <a href="#" class="subtle-button">Load More</a>
+        <a class="subtle-button" id="load-more">Load More</a>
     </div>
 </section>
 
