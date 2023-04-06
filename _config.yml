@@ -1,4 +1,3 @@
 collections:
-  <posts>:
-    output: true
-    allow_future: true
+  posts:
+    future: true

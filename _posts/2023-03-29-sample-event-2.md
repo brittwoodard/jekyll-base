@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gong Bath Experience Under the Stars
+date: 29-03-2023
 description: >-
   Immerse yourself in the soothing vibrations of our upcoming gong bath event. Let the sound of the gongs wash over you, clearing blockages and restoring balance to your mind, body, and spirit. As you lay comfortably on your mat, the gentle yet powerful vibrations of the gongs will guide you into a state of deep relaxation and meditation. Join us for an evening of healing and rejuvenation, as we explore the transformative power of sound. No experience necessary - all are welcome.
 author: Brittany Woodard
