@@ -13,9 +13,9 @@ seo:
 
 <!-- Image Banner -->
 <section class="grid-right">
-    <div class="col-6 bg-image bg-sage tall-100 bg-overlay editable"></div>
+    <div class="col-6 bg-image bg-sage tall-100 bg-overlay editable" data-aos="fade-in"></div>
 
-    <div class="col-12-middle center sit-center padded editable">
+    <div class="col-12-middle center sit-center padded editable" data-aos="fade-in">
         <img src="/images/mcc-logo-transparent.png" class="logo-img">
         <h1>My Conscious Community</h1>
         <p class="subtitle">Connect with Like-Minded Souls: Your Guide to Upcoming Workshops, Retreats, and Gatherings</p>
@@ -65,31 +65,17 @@ seo:
             {% include post-loop-item-square.html %}
         {% endfor %}
     </div>
-    <div class="col-12 center">
-        <a class="subtle-button" id="load-more">Load More</a>
-    </div>
 </section>
 
 <!-- Create Event -->
-<section class="grid padded-lg bg-v-light padded-b-0">
+<section class="grid padded-lg bg-v-light padded-b-0" id="create-event">
     <div class="col-7-middle editable">
         <h3 class="heading-alt">Contribute to the<br>collective consciousness</h3>
         <h2 class="subtitle-alt text-medium">List your event for free</h2>
         <a href="#" class="button">Create Event</a>
     </div>
     <div class="col-5 bg-image bg-border shape-window tall-60" style="background-image: url('/images/my-conscious-community-2.jpg');"></div>
-    <div data-aos="fade-down" data-aos-easing="linear">
+    <div data-aos="fade-down" data-aos-easing="linear" class="margin-b--6">
         <img src="/images/mcc-logo-transparent.png" class="sit-eye">
     </div>
 </section>
-
-<!-- CTA -->
-<!-- <section class="padded bg-accent" id="cta">
-    <h2 class="text-light center editable">Discover the Best Tools and Resources for Conscious Living<br><span class="subtitle-alt">Download Our Free Guide Carefully Curiated by our Team</span></h2>
-    <form class="center">
-        <input type="text" name="_name" placeholder="First Name">
-        <input type="text" name="_name" placeholder="Last Name">
-        <input type="email" name="_replyto" placeholder="Your Email">
-        <button class="button" type="submit">Join the Waitlist</button>
-    </form>
-</section> -->
