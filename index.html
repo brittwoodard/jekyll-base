@@ -30,9 +30,9 @@ seo:
         <p class="padded-l-30">We know you're always on the lookout for the next big event to deepen your spiritual journey. That's why we've handpicked the most divine experiences just for you. Our editors have scoured the land to find the most profound and transformative events to guide you on your path. From yoga retreats to mindfulness workshops, our Featured Events are designed to uplift your mind, body, and spirit. You'll connect with like-minded souls and embark on a journey of self-discovery that will leave you feeling recharged and refreshed.</p>
     </div>
 
-    <div class="grid-center featured-events-gallery">
+    <div class="grid featured-events-gallery">
 
-        {% assign featured_posts = site.posts | where: 'featured', true %}
+        {% assign featured_posts = site.events | where: 'featured', true %}
 
         {% for post in featured_posts limit:5 %}
 
@@ -61,7 +61,7 @@ seo:
         <p class="padded-l-30">Calling all conscious seekers! Our community is buzzing with events that will awaken your spirit and nourish your soul. Whether you're looking for yoga classes, mindfulness workshops, or simply a chance to connect with like-minded souls, we've got you covered. Get ready to raise your vibe, expand your consciousness, and make some new friends along the way. Join us for the journey!</p>
     </div>
     
-        {% for post in site.posts %}
+        {% for post in site.events %}
             {% include post-loop-item-square.html %}
         {% endfor %}
     </div>
@@ -71,7 +71,7 @@ seo:
 </section>
 
 <!-- Create Event -->
-<section class="grid padded-lg bg-v-light" id="create-event">
+<section class="grid padded-lg bg-v-light padded-b-0">
     <div class="col-7-middle editable">
         <h3 class="heading-alt">Contribute to the<br>collective consciousness</h3>
         <h2 class="subtitle-alt text-medium">List your event for free</h2>

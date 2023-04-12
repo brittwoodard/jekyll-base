@@ -3,9 +3,7 @@
 <div class="col-3_xs-12 post-item padded-1">
     <a href="{{ post.url }}" class="bg-image landscape bg-border" style="background-image:url( '{{ post.featured_image }}' );"></a>
     <div class="padded-t-1 padded-b-1">
-        {% for item in post.city %}
-            <p> {{date}} | {{item}} </p>
-        {% endfor %}
+            <p> {{post.date | date_to_long_string}} | {{post.city}} </p>
 
         <h3 class="margin-t-1">{{ post.title }}</h3>
         <!-- <p>{{ post.description }}</p> -->

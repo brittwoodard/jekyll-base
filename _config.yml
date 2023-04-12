@@ -1,3 +1,4 @@
 collections:
-  posts:
+  events:
     future: true
+    output: true
