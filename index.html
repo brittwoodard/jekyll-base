@@ -27,7 +27,7 @@ seo:
 <section class="padded-t padded-b bg-gradient" id="featured-events">
     <div class="padded-l padded-r margin-b-1 editable">
         <h2 class="underline">Featured Events</h2>
-        <p class="padded-l-30">We know you're always on the lookout for the next big event to deepen your spiritual journey. That's why we've handpicked the most divine experiences just for you. Our editors have scoured the land to find the most profound and transformative events to guide you on your path. From yoga retreats to mindfulness workshops, our Featured Events are designed to uplift your mind, body, and spirit. You'll connect with like-minded souls and embark on a journey of self-discovery that will leave you feeling recharged and refreshed.</p>
+        <p class="padded-r-30 xs-padded-r-5">We know you're always on the lookout for the next big event to deepen your spiritual journey. That's why we've handpicked the most divine experiences just for you. Our editors have scoured the land to find the most profound and transformative events to guide you on your path. From yoga retreats to mindfulness workshops, our Featured Events are designed to uplift your mind, body, and spirit. You'll connect with like-minded souls and embark on a journey of self-discovery that will leave you feeling recharged and refreshed.</p>
     </div>
 
     <div class="grid featured-events-gallery">
@@ -36,7 +36,7 @@ seo:
 
         {% for post in featured_posts limit:5 %}
 
-        <div class="col-3_sm-4 post-item padded-1">
+        <div class="col-3_sm-4_xs-8 post-item padded-1">
             <div class="bg-image portrait bg-border" style="background-image:url( '{{ post.featured_image }}' );"></div>
             
             <div class="padded-t-1 featured-gallery-description center"> 
@@ -58,7 +58,7 @@ seo:
 <section class="padded grid" id="upcoming-events">
     <div class="col-12 padded-05 margin-b-1 editable" id="blog-container">
         <h2 class="text-medium underline">Upcoming Events</h2>
-        <p class="padded-l-30">Calling all conscious seekers! Our community is buzzing with events that will awaken your spirit and nourish your soul. Whether you're looking for yoga classes, mindfulness workshops, or simply a chance to connect with like-minded souls, we've got you covered. Get ready to raise your vibe, expand your consciousness, and make some new friends along the way. Join us for the journey!</p>
+        <p class="padded-r-30 xs-padded-r-5">Calling all conscious seekers! Our community is buzzing with events that will awaken your spirit and nourish your soul. Whether you're looking for yoga classes, mindfulness workshops, or simply a chance to connect with like-minded souls, we've got you covered. Get ready to raise your vibe, expand your consciousness, and make some new friends along the way. Join us for the journey!</p>
     </div>
     
         {% for post in site.events %}
@@ -68,14 +68,14 @@ seo:
 </section>
 
 <!-- Create Event -->
-<section class="grid padded-lg bg-v-light padded-b-0" id="create-event">
-    <div class="col-7-middle editable">
+<section class="grid padded-lg bg-v-light padded-b-0 xs-padded-b-10" id="create-event">
+    <div class="col-7_xs-12-middle editable">
         <h3 class="heading-alt">Contribute to the<br>collective consciousness</h3>
         <h2 class="subtitle-alt text-medium">List your event for free</h2>
-        <a href="#" class="button">Create Event</a>
+        <a href="#" class="button xs-margin-b-3">Create Event</a>
     </div>
-    <div class="col-5 bg-image bg-border shape-window tall-60 sm-tall-30" style="background-image: url('/images/my-conscious-community-2.jpg');"></div>
+    <div class="col-5_xs-12 bg-image bg-border shape-window tall-60 sm-tall-30 xs-padded-10" style="background-image: url('/images/my-conscious-community-2.jpg');"></div>
     <div data-aos="fade-down" data-aos-easing="linear" class="margin-b--6">
-        <img src="/images/mcc-logo-transparent.png" class="sit-eye sm-sit-eye">
+        <img src="/images/mcc-logo-transparent.png" class="sit-eye sm-sit-eye hide-xs">
     </div>
 </section>
