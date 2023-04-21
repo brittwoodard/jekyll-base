@@ -619,6 +619,10 @@ hr.short.center {
 	.show-sm { display: block; }
 	.hide-sm { display: none;  }
 
+  .sm-tall-30 {min-height: 30vh;}
+
+  .sm-sit-eye {bottom: 6vh;}
+
   .sm-text-center { text-align: center; }
   .sm-text-left   { text-align: left; }
   .sm-text-right  { text-align: right; }
