@@ -36,7 +36,7 @@ seo:
 
         {% for post in featured_posts limit:5 %}
 
-        <div class="col-3_sm-4_xs-8 post-item padded-1">
+        <div class="col-3_sm-4_xs-10 post-item padded-1">
             <div class="bg-image portrait bg-border" style="background-image:url( '{{ post.featured_image }}' );"></div>
             
             <div class="padded-t-1 featured-gallery-description center"> 
@@ -68,13 +68,13 @@ seo:
 </section>
 
 <!-- Create Event -->
-<section class="grid padded-lg bg-v-light padded-b-0 xs-padded-b-10" id="create-event">
+<section class="grid padded-lg bg-v-light padded-b-0 xs-padded-b-10 flex-flip" id="create-event">
     <div class="col-7_xs-12-middle editable">
-        <h3 class="heading-alt">Contribute to the<br>collective consciousness</h3>
-        <h2 class="subtitle-alt text-medium">List your event for free</h2>
-        <a href="#" class="button xs-margin-b-3">Create Event</a>
+        <h3 class="heading-alt xs-heading-alt">Contribute to the<br>collective consciousness</h3>
+        <h2 class="subtitle-alt xs-subtitle-alt text-medium">List your event for free</h2>
+        <a href="#" class="button">Create Event</a>
     </div>
-    <div class="col-5_xs-12 bg-image bg-border shape-window tall-60 sm-tall-30 xs-padded-10" style="background-image: url('/images/my-conscious-community-2.jpg');"></div>
+    <div class="col-5_xs-12 bg-image bg-border shape-window tall-60 sm-tall-30 xs-padded-10 xs-margin-b-2" style="background-image: url('/images/my-conscious-community-2.jpg');"></div>
     <div data-aos="fade-down" data-aos-easing="linear" class="margin-b--6">
         <img src="/images/mcc-logo-transparent.png" class="sit-eye sm-sit-eye hide-xs">
     </div>
