@@ -34,6 +34,7 @@ section { position: relative; }
 .tall-70  { min-height: 70vh; }
 .tall-60  { min-height: 60vh; }
 .tall-50  { min-height: 50vh; }
+.tall-30  { min-height: 30vh; }
 .tall-20  { min-height: 20vh; }
 
 /* Padding Utility Classes */ 

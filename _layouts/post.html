@@ -3,17 +3,18 @@ layout: post-default
 ---
 
 
-<section class="padded-lg blog-content">
+<section class="padded-lg blog-content grid">
 
-
-        <div class="intro">
-            <h1>{{ page.title }}</h1>
-            {% for item in page.categories %}
-                <span class="tag"> {{ item }}</span>
-            {% endfor %}
-            <p class="post-info">{{ page.date | date_to_long_string }}</p>
-         
-        </div>
+    <div class="col-5 bg-image bg-woman tall-30 bg-border"></div>
+    <div class="col-7-middle padded">
+        <h1>{{ page.title }}</h1>
+        {% for item in page.categories %}
+            <span class="tag"> {{ item }}</span>
+        {% endfor %}
+        <p class="post-info">{{ page.date | date_to_long_string }}</p>
+        <a class="button">Reserve Your Spot</a>
+     </div>
+        
 
         <div class="margin-t-2">
 
