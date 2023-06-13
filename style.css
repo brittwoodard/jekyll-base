@@ -173,6 +173,7 @@ section { position: relative; }
   background-color: var(--light);
   border: 2px solid var(--accent);
   padding: 5%;
+  padding-bottom: 2rem;
   width: 80%;
   position: relative;
   margin-top: -15%;
